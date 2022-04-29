@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Get User Details,,,,2022-04-29 10:11:44,2022-04-29 10:11:45,1.466s,PASSED
+,,,,,,,
+Test Cases/User/Verify User Details,,,,2022-04-29 10:11:44,2022-04-29 10:11:45,1.291s,PASSED
+"response = sendRequest(findTestObject(""User/GetUserDetails""))",,,,2022-04-29 10:11:44,2022-04-29 10:11:45,1.053s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2022-04-29 10:11:45,2022-04-29 10:11:45,0.008s,PASSED
+"verifyElementPropertyValue(response, ""data.first_name"", ""Janet"")",,,,2022-04-29 10:11:45,2022-04-29 10:11:45,0.030s,PASSED

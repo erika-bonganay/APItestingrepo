@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Get User Details" time="1.466" tests="1" failures="0" errors="0">
+   <testsuite name="Get User Details" tests="1" failures="0" errors="0" time="1.466" skipped="0" timestamp="2022-04-29 10:11:44" hostname="erikabonganay - 127.10.0.4" id="Test Suites/User/Get User Details">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/erikabonganay/git/APItestingrepo/Reports/20220429_101141/User/Get User Details/20220429_101142"/>
+         <property name="logFiles" value="/Users/erikabonganay/git/APItestingrepo/Reports/20220429_101141/User/Get User Details/20220429_101142/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="erikabonganay - 127.10.0.4"/>
+         <property name="hostAddress" value="127.10.0.4"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="8.3.0.208"/>
+      </properties>
+      <testcase name="Test Cases/User/Verify User Details" time="1.291" classname="Test Cases/User/Verify User Details" status="PASSED">
+         <system-out><![CDATA[2022-04-29 10:11:44 - [TEST_CASE][PASSED] - Test Cases/User/Verify User Details: Test Cases/User/Verify User Details
+
+2022-04-29 10:11:44 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("User/GetUserDetails")): Send request successfully
+
+2022-04-29 10:11:45 - [MESSAGE][INFO] - HAR: /Users/erikabonganay/git/APItestingrepo/Reports/20220429_101141/User/Get User Details/20220429_101142/requests/main/0.har
+
+2022-04-29 10:11:45 - [MESSAGE][PASSED] - Send request successfully
+
+2022-04-29 10:11:45 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2022-04-29 10:11:45 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-04-29 10:11:45 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data.first_name", "Janet"): Verify element property value successfully
+
+2022-04-29 10:11:45 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-04-29 10:11:44 - [TEST_SUITE][PASSED] - Get User Details: Test Cases/User/Verify User Details]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
